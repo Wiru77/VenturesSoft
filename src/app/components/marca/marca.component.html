@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Featured Instant Coupons</h1>
+  <div class="coupons-grid">
+    <div class="coupon" *ngFor="let marca of paginatedMarcas">
+      <img [src]="marca.imagen_marca" [alt]="marca.nombre_marca" />
+      <span class="badge">💳 Instant Coupon</span>
+      <h3>{{ marca.nombre_marca }}</h3>
+      <p>{{ marca.promo_marca }}</p>
+      <a href="#">Get Coupon →</a>
+    </div>
+  </div>
+</div>
+
+<div class="pagination-controls">
+  <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+  <span>Page {{ currentPage }}</span>
+  <button
+    (click)="nextPage()"
+    [disabled]="currentPage * itemsPerPage >= lista_marcas.length"
+  >
+    Next
+  </button>
+</div>
+
+<button class="button-large">MORE INSTANT COUPONS ></button>

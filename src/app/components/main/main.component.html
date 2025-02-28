@@ -1,0 +1,10 @@
+<div class="rectangle">
+  <div class="content">
+    <app-header></app-header>
+    <app-table></app-table>
+    <app-menu (categoriaSeleccionada)="actualizarCategoria($event)"></app-menu>
+    <app-marca></app-marca>
+    <app-detalle [categoriaSeleccionada]="categoriaSeleccionada"></app-detalle>
+    <app-footer></app-footer>
+  </div>
+</div>

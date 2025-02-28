@@ -1,0 +1,13 @@
+footer {
+  margin-top: 150px;
+  background-color: #aca0a948;
+  width: 96.5%;
+  display: flex;
+  padding: 40px;
+}
+
+h5 {
+  margin: 30px;
+  margin-left: 10%;
+  align-self: 25%;
+}

@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn.login {
+  background-color: transparent;
+  color: #0056b3;
+  border: 1px solid #0056b3;
+}
+
+.btn.link-card {
+  border-radius: 50px;
+}

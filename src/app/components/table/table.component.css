@@ -1,0 +1,100 @@
+.body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.bussiness-card {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 60px;
+  margin-right: 100px;
+}
+
+.to {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.offers {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.highlight {
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Botón grande */
+.button-large {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 23%;
+  height: 40px;
+  padding: 15px;
+  font-size: 13px;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding-top: 13px;
+}
+
+.checkmark::before {
+  content: "✔";
+  color: rgb(136, 228, 32);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 4px solid rgb(17, 0, 128);
+}
+
+.td-text {
+  text-align: left;
+  height: 35px;
+}

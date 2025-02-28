@@ -1,0 +1,14 @@
+<div class="hero">
+  <h1>Unlock the full power of</h1>
+  <div class="cards-container">
+    <div class="card" *ngFor="let marca of marcasFiltradas">
+      <img [src]="marca.imagen_marca" [alt]="marca.nombre_marca" />
+      <div class="card-content">
+        <span class="badge">💳 Cashback</span>
+        <h3>{{ marca.nombre_marca }}</h3>
+        <p>{{ marca.promo_marca }}</p>
+      </div>
+    </div>
+  </div>
+  <button class="cta-button">LINK YOUR CARD →</button>
+</div>

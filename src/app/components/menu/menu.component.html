@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Explore Instant Coupons</h1>
+  <div class="categorias">
+    <button
+      *ngFor="let categoria of lista_categorias"
+      class="tag"
+      [ngClass]="{ 'active-button': selectedCategoria === categoria }"
+      (click)="SeleccionarCategoria(categoria)"
+    >
+      {{ categoria }}
+    </button>
+  </div>
+</div>
