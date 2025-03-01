@@ -43,7 +43,6 @@ h1 {
   font-size: 50px;
 }
 
-/* Tabla */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -61,7 +60,6 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Botón grande */
 .button-large {
   background-color: #0056b3;
   color: white;

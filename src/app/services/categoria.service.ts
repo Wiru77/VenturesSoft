@@ -10,7 +10,6 @@ export class CategoriaService {
 
   lista_categorias(): Observable<any> {
     let headers = new HttpHeaders({});
-    console.log('se');
 
     return this._http.get(
       'https://eland-dk.humaneland.net/Examen/AngularApi/Categorias',

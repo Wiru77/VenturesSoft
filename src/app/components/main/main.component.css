@@ -1,16 +1,15 @@
 .rectangle {
-  width: 70%; /* Ajusta el ancho del rectángulo */
+  width: 70%;
   height: 300vh;
-  background: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
-  backdrop-filter: blur(10px); /* Efecto de desenfoque */
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2); /* Difuminado en los bordes */
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   border-radius: 20px;
   margin-left: 15%;
 }
 
-/* Contenido dentro del rectángulo */
 .content {
   width: 90%;
 }

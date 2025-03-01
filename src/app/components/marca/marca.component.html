@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div class="pagination-controls">
+<div class="pagination-controls" *ngIf="!categoriaSeleccionada">
   <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
   <span>Page {{ currentPage }}</span>
   <button
@@ -22,4 +22,6 @@
   </button>
 </div>
 
-<button class="button-large">MORE INSTANT COUPONS ></button>
+<button class="more-coupons" (click)="activarFiltrado()">
+  MORE INSTANT COUPONS >
+</button>
